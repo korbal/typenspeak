@@ -4,13 +4,11 @@
   "description": "nothing here",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "typenspeak"
-  },
+  "repository": {},
   "author": "Balint",
+  "homepage": "https://korbal.github.io/typenspeak",
   "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.0.1"
